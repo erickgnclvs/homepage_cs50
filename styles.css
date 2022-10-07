@@ -5,3 +5,11 @@ project colors:
     kinda-pink #dec2ba
     white #ffffff
 */
+
+footer {
+    background-color: #fbfaf9;
+}
+
+footer > a {
+    text-decoration: none;
+}
