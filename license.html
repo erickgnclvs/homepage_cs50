@@ -39,13 +39,52 @@
                     </div>
                   </nav>                
             </header>
-            <main class="container">
-                
-
-
-
-                
+            <main class="container-fluid">
+                <div class="imagecontainer">
+                    <image>
+                        <img src="./images/tulipsbg.jpg" class="tulipsbg">
+                    </image>
+                    <div class="textcontainer">
+                        <h1 class="carousel-caption text-dark">License</h1>
+                    </div>
+                </div>
+                <div class="card quote">
+                    <h6 class="card-body">"Excepteur sint non proident, sunt in culpa qui officia mollit anim id est laborum." - Hulk</h6>
+                </div>
+                <div class="paragraphcontainer">
+                    <p>
+                        Tempus quam pellentesque nec nam aliquam sem et tortor. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Nunc sed augue lacus viverra vitae congue eu consequat ac. Felis eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit. Tristique senectus et netus et malesuada fames ac turpis egestas. Urna nunc id cursus metus. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Id consectetur purus ut faucibus pulvinar elementum integer enim. Interdum varius sit amet mattis vulputate enim. Adipiscing enim eu turpis egestas.
+                    </p>
+                    <p>
+                        Aenean sed adipiscing diam donec adipiscing tristique risus. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Neque sodales ut etiam sit amet nisl.
+                    </p>
+                    <p>
+                        Ultrices tincidunt arcu non sodales neque sodales ut etiam. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Aenean et tortor at risus viverra adipiscing at in. Felis imperdiet proin fermentum leo. Purus faucibus ornare suspendisse sed nisi lacus. Eget duis at tellus at urna condimentum mattis. Velit laoreet id donec ultrices tincidunt arcu non. Quam viverra orci sagittis eu. Enim nulla aliquet porttitor lacus. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Risus in hendrerit gravida rutrum quisque non. Mi bibendum neque egestas congue quisque egestas diam in arcu. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.
+                    </p>
+                </div>
+                <div class="subscribecontainer">
+                    <div>
+                        <h3 class="text-center">Subscribe</h3>
+                        <form id="form">
+                            <div class="row">
+                                <div class="inputbox col-8">
+                                    <input type="email" name="name" placeholder="E-mail" class="form-control" required="required">
+                                </div>
+                                <div class="submitbtn col-4">
+                                    <input type="submit" class="btn btn-dark btn-block">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </main>
+            <script>
+                document.getElementById("form").onsubmit = function() {myFunction()};
+
+                function myFunction() {
+                  alert("Thanks for subscribing!");
+                }
+            </script>
             <footer class="py-3 my-4">
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                   <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
